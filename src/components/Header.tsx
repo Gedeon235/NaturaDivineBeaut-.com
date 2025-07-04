@@ -25,7 +25,7 @@ export default function Header() {
 
             <img src="/profil.png" alt="profil" className="w-6 h-6 object-contain"/>
              <img src="/search.png" alt="recherche" className="w-6 h-6 object-contain"/>
-              <img src="/panier.png" alt="utilisateur" className="w-6 h-6 object-contain"/>
+              <img src="/utili.png" alt="utilisateur" className="w-6 h-6 object-contain"/>
         </ul>
       </nav>
     </header>
