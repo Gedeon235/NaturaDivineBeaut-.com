@@ -18,9 +18,9 @@ export default function Sidebar() {
     
       <div className="mb-8 text-center">
         <img
-          src="https://i.pravatar.cc/100"
-          alt="avatar"
-          className="mx-auto rounded-full w-16 h-16"
+          src="public/PDG.png"
+          alt="img admin"
+          className="mx-auto rounded-full w-6 h-6"
         />
         <h3 className="text-lg font-semibold mt-2">PESSEM GEDEON</h3>
         <p className="text-sm text-gray-500">Administrateur</p>

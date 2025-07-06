@@ -1,6 +1,7 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import type { ReactNode } from 'react';
+import { Link } from 'react-router-dom'; // ✅ Ajout du Link
 
 type MainLayoutProps = {
   children: ReactNode;
@@ -12,6 +13,19 @@ export default function MainLayout({ children }: MainLayoutProps) {
       <Header />
       <main className="flex-1">{children}</main>
       <Footer />
+
+      {/* ✅ Lien vers le tableau de bord après le footer */}
+      <div className="bg-white py-6 shadow-inner text-center">
+        <p className="text-gray-700 text-sm">
+          Envie d’en voir plus ?{' '}
+          <Link
+            to="/dashboard"
+            className="text-blue-600 hover:text-blue-800 font-medium underline transition-colors"
+          >
+            Accéder au Tableau de bord
+          </Link>
+        </p>
+      </div>
     </div>
   );
 }

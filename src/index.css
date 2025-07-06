@@ -67,6 +67,18 @@ button:focus-visible {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .nav ul {
+    height: 4em;
+    flex-direction: column;
+    
+  }
+  .card {
+    padding: 1em;
+  }
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
