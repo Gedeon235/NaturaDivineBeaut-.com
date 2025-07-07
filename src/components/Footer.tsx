@@ -11,7 +11,7 @@ export default function Footer() {
     <footer className="bg-gray-900 text-white px-6 py-12">
       <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
      
-        {/* Description principale */}
+        
         <div>
           <img src="/logo.png" alt="Logo" className="w-12 h-12 rounded-full object-contain mb-2" />
           <ul className="text-sm text-gray-400 space-y-2">
@@ -29,7 +29,6 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Services */}
         <div>
           <h3 className="text-lg font-semibold mb-3">Services</h3>
           <ul className="space-y-2 text-gray-400 text-sm">
@@ -42,7 +41,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* À propos */}
+       
         <div>
           <h3 className="text-lg font-semibold mb-3">À propos</h3>
           <ul className="space-y-2 text-gray-400 text-sm">
@@ -54,7 +53,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Liens rapides */}
+       
         <div>
           <h3 className="text-lg font-semibold mb-3">Liens rapides</h3>
           <ul className="space-y-2 text-gray-400 text-sm">
@@ -67,7 +66,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Contact + Réseaux sociaux */}
+        
         <div>
           <h3 className="text-lg font-semibold mb-3">Contact</h3>
           <ul className="space-y-2 text-gray-400 text-sm">
@@ -86,7 +85,7 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bas de page */}
+      
       <div className="mt-10 flex flex-col md:flex-row items-center justify-between border-t border-gray-700 pt-6 text-sm text-gray-400 gap-4">
         <p>© {new Date().getFullYear()} NaturaDivineBeauté.Tous droits réservés.</p>
         <p>Politique de confidentialité</p>

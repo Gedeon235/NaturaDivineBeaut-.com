@@ -14,7 +14,7 @@ export default function Dashboard() {
       <h1 className="text-2xl font-bold mb-6">Bienvenue sur le tableau de bord</h1>
 
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
-        {/* Widgets */}
+        
         <div className="bg-white p-6 rounded-lg shadow col-span-1 lg:col-span-3 grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="bg-pink-100 p-4 rounded shadow hover:shadow-md transition">
             <h3 className="font-semibold text-lg">Produits</h3>
@@ -42,7 +42,7 @@ export default function Dashboard() {
           </div>
         </div>
 
-        {/* Activité récente */}
+       
         <div className="bg-white p-6 rounded-lg shadow col-span-1">
           <h2 className="text-lg font-semibold mb-4">Activité récente</h2>
           <ul className="space-y-4">

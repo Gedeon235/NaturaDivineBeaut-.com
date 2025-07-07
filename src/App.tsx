@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import MainLayout from './layouts/MainLayout';
 import Hero from './components/Hero';
 import Features from './components/Features';
-import Dashboard from './pages/Dashboard'; // 👈 vue complète avec sidebar (page)
+import Dashboard from './pages/Dashboard'; 
 
 export default function App() {
   return (
